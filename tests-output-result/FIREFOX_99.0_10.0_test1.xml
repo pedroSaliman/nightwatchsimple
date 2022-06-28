@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test1"
+    errors="1" failures="0" hostname="" id="" package="test1" skipped="0"
+    tests="1" time="7.399" timestamp="">
+  
+    <testcase name="Demo test ProtoCommerce" classname="test1" time="7.399" assertions="3">
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .setValue() command on &lt;Element [name=@user]&gt;: Timed out while waiting for element &#34;//input[@class=&#39;form-control ng-touched ng-dirty ng-valid&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Page.entervalue (C:\Users\LORD TRADE\Desktop\night\pages\Form.js:20:4)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\LORD TRADE\Desktop\night\tests\test1.js:12:14)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@user]&gt;: Timed out while waiting for element &#34;//input[@class=&#39;form-control ng-touched ng-dirty ng-valid&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+       at Page.entervalue (C:\Users\LORD TRADE\Desktop\night\pages\Form.js:20:4)
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\LORD TRADE\Desktop\night\tests\test1.js:12:14)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

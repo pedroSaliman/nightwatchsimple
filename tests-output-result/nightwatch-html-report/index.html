@@ -1,0 +1,316 @@
+  <head>
+    <title>Nightwatch Reporter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrap">
+      <div id="main">
+        <section id="navigation">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="https://nightwatchjs.org" target="_blank"><div class="logo"></div></a>
+            </nav>
+          </div>
+        </section>
+        <section id="auxbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer">
+                  <div class="auxbox autobox">
+                  </div>
+                </div>
+              </div>
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer align-h-center">
+                  <h1>Nightwatch.js – <strong>Test Report</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sessions">
+          <div class="row">
+          <div class="col-md-12">
+          <div class="container-fluid">
+            
+                <div id="s1" class="sessionbox">
+                  
+      <div class="sessionbox-indicator indicator-error sessionbox-padding">
+        <div class="row">
+          <div class="col-md-1">
+            <div class="statusbadge statusbadge-error">Error</div>
+          </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             test1
+          </div>
+        </div>
+        <div id="tabs-s1" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s1-t1-tab" data-bs-toggle="tab" href="#nav-s1-t1" role="tab" aria-controls="nav-s1-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s1-t3-tab" data-bs-toggle="tab" href="#nav-s1-t3" role="tab" aria-controls="nav-s1-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s1-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">1</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\test1.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">7.399 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s1-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session  </span></b></div><div>{
+     desiredCapabilities: { browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF">, name: <span style="color:#0A0">'Ecosia.org Demo'<span style="color:#FFF"> },
+     capabilities: { alwaysMatch: { browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF"> } }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session (6269ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'99.0'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:accessibilityChecks'<span style="color:#FFF">: <span style="color:#A50">false<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:buildID'<span style="color:#FFF">: <span style="color:#0A0">'20220315185755'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:geckodriverVersion'<span style="color:#FFF">: <span style="color:#0A0">'0.30.0'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:headless'<span style="color:#FFF">: <span style="color:#A50">false<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:processID'<span style="color:#FFF">: <span style="color:#A50">3060<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:profile'<span style="color:#FFF">: <span style="color:#0A0">'C:\\Users\\LORDTR~1\\AppData\\Local\\Temp\\rust_mozprofileH8ArQJ'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:shutdownTimeout'<span style="color:#FFF">: <span style="color:#A50">60000<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:useNonSpecCompliantPointerOrigin'<span style="color:#FFF">: <span style="color:#A50">false<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:webdriverClick'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'windows'<span style="color:#FFF">,
+         platformVersion: <span style="color:#0A0">'10.0'<span style="color:#FFF">,
+         proxy: {},
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/url  </span></b></div><div>{ url: <span style="color:#0A0">'https://rahulshettyacademy.com/angularpractice/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/url (2474ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'body'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'e3b431c8-0b99-4d88-8684-84cb4a2cd24c'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/execute/sync  </span></b></div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'e3b431c8-0b99-4d88-8684-84cb4a2cd24c'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'e3b431c8-0b99-4d88-8684-84cb4a2cd24c'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/execute/sync (14ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">GET /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/title  </span></b></div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/title (4ms)</div><div>{ value: <span style="color:#0A0">'ProtoCommerce'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (5ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (16ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (16ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (15ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (12ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'xpath'<span style="color:#FFF">,
+     value: <span style="color:#0A0">"//input[@class='form-control ng-touched ng-dirty ng-valid']"<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">"input[name='email']"<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (15ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'8bfa189f-be5b-4181-a20b-6b21ec596559'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/8bfa189f-be5b-4181-a20b-6b21ec596559/clear  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/8bfa189f-be5b-4181-a20b-6b21ec596559/clear (27ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/8bfa189f-be5b-4181-a20b-6b21ec596559/value  </span></b></div><div>{
+     text: <span style="color:#0A0">'salimanmohamed@gmail.com'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'s'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'l'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'m'<span style="color:#FFF">,
+       <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'m'<span style="color:#FFF">, <span style="color:#0A0">'o'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'m'<span style="color:#FFF">, <span style="color:#0A0">'e'<span style="color:#FFF">, <span style="color:#0A0">'d'<span style="color:#FFF">, <span style="color:#0A0">'@'<span style="color:#FFF">,
+       <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'m'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'l'<span style="color:#FFF">,
+       <span style="color:#0A0">'.'<span style="color:#FFF">, <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'o'<span style="color:#FFF">, <span style="color:#0A0">'m'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/8bfa189f-be5b-4181-a20b-6b21ec596559/value (44ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#exampleInputPassword1'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (5ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'cb67250b-b2bf-4262-b9b7-e79da8cad56a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/cb67250b-b2bf-4262-b9b7-e79da8cad56a/clear  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/cb67250b-b2bf-4262-b9b7-e79da8cad56a/clear (5ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/cb67250b-b2bf-4262-b9b7-e79da8cad56a/value  </span></b></div><div>{
+     text: <span style="color:#0A0">'123456789'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'1'<span style="color:#FFF">, <span style="color:#0A0">'2'<span style="color:#FFF">, <span style="color:#0A0">'3'<span style="color:#FFF">,
+       <span style="color:#0A0">'4'<span style="color:#FFF">, <span style="color:#0A0">'5'<span style="color:#FFF">, <span style="color:#0A0">'6'<span style="color:#FFF">,
+       <span style="color:#0A0">'7'<span style="color:#FFF">, <span style="color:#0A0">'8'<span style="color:#FFF">, <span style="color:#0A0">'9'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/cb67250b-b2bf-4262-b9b7-e79da8cad56a/value (12ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#exampleFormControlSelect1'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (5ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'91987059-7c6d-4ba5-8f78-61d28ceef28c'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/91987059-7c6d-4ba5-8f78-61d28ceef28c/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/91987059-7c6d-4ba5-8f78-61d28ceef28c/click (252ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#inlineRadio1'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (7ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'520f5d62-60a2-4b1b-878c-e2846dde766b'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/520f5d62-60a2-4b1b-878c-e2846dde766b/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/520f5d62-60a2-4b1b-878c-e2846dde766b/click (232ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'body app-root option:nth-child(1)'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (14ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'fd50989b-75e6-4896-9ebb-cac5021010b9'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/fd50989b-75e6-4896-9ebb-cac5021010b9/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/fd50989b-75e6-4896-9ebb-cac5021010b9/click (242ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">"input[value='Submit']"<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (8ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0f6077d0-5d0c-4802-8c75-a52fb15bfaae'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/0f6077d0-5d0c-4802-8c75-a52fb15bfaae/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/element/0f6077d0-5d0c-4802-8c75-a52fb15bfaae/click (224ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.alert.alert-success.alert-dismissible'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/elements (14ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'fe88b67d-0bf2-4ada-afb7-6fc5ce02fdfb'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/execute/sync  </span></b></div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'fe88b67d-0bf2-4ada-afb7-6fc5ce02fdfb'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'fe88b67d-0bf2-4ada-afb7-6fc5ce02fdfb'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a/execute/sync (23ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">DELETE /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a  </span></b></div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /session/420b0e4b-6a2a-4b2d-8d73-f2cb3932ee4a (1931ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="false" aria-controls="s0ac1">
+          Demo test ProtoCommerce
+        </button>
+      </h5>
+    </div>
+
+    <div id="s0ac1" class="collapse" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Element &lt;body&gt; was visible after 46 milliseconds.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if the page title contains &#39;ProtoCommerce&#39; (7ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;Element [name=@alert]&gt; is visible (43ms)</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+          </div>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row footerstarbg">
+          <div class="col-md-12">
+            <nav class="footer-box">
+              <div class="footer-links">
+                  <a class="cr" href="https://nightwatchjs.org" target="_blank">© 2022 Nightwatch.js</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>

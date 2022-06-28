@@ -1,0 +1,21 @@
+{
+  "name": "night",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nightwatch",
+    "headless":"npm run test -- --headless",
+    "report":"npm run test -- --output ./tests-output",
+    "prallel":"npm run test -- --env firefox,chrome",
+    "prallelhead":"npm run headless -- --env firefox,chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^102.0.0",
+    "geckodriver": "^3.0.1",
+    "mochawesome": "^7.1.3",
+    "nightwatch": "^2.2.2"
+  }
+}

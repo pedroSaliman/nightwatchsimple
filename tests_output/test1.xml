@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="test1"
+    errors="1" failures="0" hostname="" id="" package="test1" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       Error: Element &#34;mail&#34; was not found in &#34;Form&#34;. Available elements: email, pass, btn
+       at Page.entervalue (C:\Users\LORD TRADE\Desktop\night\pages\Form.js:18:4)
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\LORD TRADE\Desktop\night\tests\test1.js:12:14)
+  SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created
+ from disconnected: received Inspector.detached event
+   (Session info: chrome=102.0.5005.115)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;C:\\Users\\LORD TRADE\\Desktop\\night\\node_modules\\chromedriver\\lib\\chromedriver\\chromedriver.exe&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: []
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from ChromeDriver.
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Demo test ProtoCommerce" classname="test1">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
